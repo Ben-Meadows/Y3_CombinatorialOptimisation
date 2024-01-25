@@ -16,30 +16,24 @@ This project implements a Simulated Annealing algorithm to optimize tournament r
 
 ### Installation
 1. Clone the repository:
-   ```sh
-   git clone https://github.com/yourusername/kemeny-optimizer.git
-Navigate to the project directory:
-sh
-Copy code
+git clone https://github.com/yourusername/kemeny-optimizer.git
+
+2.Navigate to the project directory:
 cd kemeny-optimizer
 Usage
-Compile the Java files:
-sh
-Copy code
+
+3.Compile the Java files:
 javac *.java
-Run the main application:
-sh
-Copy code
+
+4.Run the main application:
 java Application <path-to-input-file>
 Input File Format
-The input file should be in the following format:
 
+5.The input file should be in the following format:
 The first line contains the number of participants.
 The following lines contain the participant index, name, and their respective scores in a CSV format.
-Example:
 
-php
-Copy code
+Example:
 <Number of Participants>
 <Participant Index>,<Participant Name>
 ...
@@ -47,17 +41,16 @@ Copy code
 <Score>,<Participant 1 Index>,<Participant 2 Index>
 ...
 <Score>,<Participant 1 Index>,<Participant 2 Index>
-Output
+###Output
 The output includes:
 
 The optimized ranking of participants.
 The Kemeny score of the final ranking.
 The total runtime of the optimization process.
 The number of uphill moves during the simulated annealing.
-Example Output:
 
-yaml
-Copy code
+###Example output
+Example Output:
 KEMENY SCORE:  73
 RUNTIME:       59ms
 UPHILL MOVES:  2
